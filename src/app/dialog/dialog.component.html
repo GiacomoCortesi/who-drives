@@ -1,0 +1,17 @@
+<h2 mat-dialog-title>You've got Chosen {{modalTitle}} !!!</h2>
+<mat-dialog-content>
+  <p>Do not:</p>
+  <mat-list>
+    <mat-list-item>Drink Alchol</mat-list-item>
+    <mat-list-item>Smoke weed</mat-list-item>
+  </mat-list>
+<img src="../../assets/images/police.jpeg" alt="HTML5 Icon" style="width:256px;height:256px;">
+<!--  <mat-form-field>
+    <input matInput [(ngModel)]="data.message">
+  </mat-form-field> -->
+</mat-dialog-content>
+<mat-dialog-actions>
+<!-- <button mat-button mat-dialog-close>No</button> -->
+ <!--The mat-dialog-close directive optionally accepts a value as a result for the dialog.-->
+ <button mat-button [mat-dialog-close]="true">Yes</button>
+</mat-dialog-actions>

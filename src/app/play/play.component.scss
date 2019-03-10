@@ -1,0 +1,68 @@
+h1 {
+  font-size: 4em;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+  height: 80%;
+  text-align: center;
+  padding: 4em 0;
+}
+
+.mat-card {
+  width: 50%;
+  margin: auto;
+  margin-top: 2em;
+  padding: 2em;
+}
+
+.mat-card-title {
+  text-align: center;
+  width: 100%;
+  margin-left: 3em;
+}
+
+.mat-input-element {
+  font-size: 2.5em;
+}
+
+
+#selected {
+  color: red;
+}
+
+.mat-form-field {
+  margin-left: 2em;
+  width: 35%;
+}
+
+.material-icons {
+  font-size:48px;
+}
+
+.h2 {
+  text-align: center
+}
+
+.mat-list {
+  width: 50%;
+  margin: auto; 
+}
+
+.mat-form-field-appearance-legacy .mat-form-field-wrapper {
+   padding-bottom: 1.25em;
+   margin-left: 1.5em;
+}
+
+.mat-divider {
+  margin: 4em;
+}
+
+.mat-icon {
+   padding-bottom: 0.4em;
+}
+
+.mat-list-item {
+    margin-left: 5.5em;
+}
